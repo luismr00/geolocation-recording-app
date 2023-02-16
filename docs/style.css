@@ -10,7 +10,17 @@ body {
 .row-header p, #location p {
     width: 150px;
     text-align: center;
-    border: 1px solid black;
+
+}
+
+.row-header {
+    margin-top: 15px;
+    background-color: gainsboro;
+}
+
+#location {
+    margin: 15px 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }
 
 .btn {
