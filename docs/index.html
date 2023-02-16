@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Geolocation App</title>
+        <script src="script.js" async></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+
+        </div>
+        <h1>Distances between OSU</h1>
+        <select id="sort" onchange="sortData()">
+            <option value="default">default</option>
+            <option value="asc">ascending</option>
+            <option value="desc">descending</option>
+        </select>
+        <div id="distances">
+            <div class="row-header">
+                <p>City</p>
+                <p>Latitude</p>
+                <p>Longitude</p>
+                <p>Distance</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button>
+                <span>&#9679</span>
+                <p>BUTTON</p>
+                <span>&#9679</span>
+            </button>
+        </div>
+    </body>
+</html>

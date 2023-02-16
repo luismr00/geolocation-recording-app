@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+.row-header, #location {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.row-header p, #location p {
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.btn {
+    text-align: center;
+}
+
+#distances {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-image: linear-gradient(to right, #c54e22 , #e46d44);
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: 3px solid #c54e22;
+    outline-offset: 2px;
+}
+
+button p {
+    font-size: 26px;
+    display: inline-block;
+}
+
+span {
+  display: inline-block;
+  color: white;
+  font-size: 36px;
+  padding: 0 30px;
+}
